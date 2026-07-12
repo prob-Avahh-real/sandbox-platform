@@ -1,0 +1,25 @@
+{
+  "name": "sandbox-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Roblox-like sandbox game platform with Lua scripting",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\" \"npm run dev:studio\"",
+    "dev:server": "npm -w packages/server run dev",
+    "dev:client": "npm -w packages/client run dev",
+    "dev:studio": "npm -w packages/studio run dev",
+    "build": "npm -w packages/engine run build && npm -w packages/lua-runtime run build && npm -w packages/server run build && npm -w packages/client run build && npm -w packages/studio run build",
+    "lint": "eslint packages/*/src --ext .ts,.tsx",
+    "typecheck": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0"
+  }
+}

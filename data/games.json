@@ -1,0 +1,134 @@
+[
+  [
+    "c1a77172-0ea2-42e5-860e-dd61333f7cb0",
+    {
+      "meta": {
+        "id": "c1a77172-0ea2-42e5-860e-dd61333f7cb0",
+        "name": "Test Game",
+        "description": "A test game",
+        "creatorId": "eb28719c-835c-40b9-8b0d-08c18b701d91",
+        "creatorName": "testbot",
+        "tags": [
+          "test",
+          "demo"
+        ],
+        "thumbnail": "",
+        "playCount": 0,
+        "likeCount": 0,
+        "maxPlayers": 8,
+        "createdAt": "2026-05-20T10:43:57.526Z",
+        "updatedAt": "2026-05-20T10:43:57.526Z"
+      },
+      "luaScript": "print(\"hello\")",
+      "entities": [
+        {
+          "id": 1,
+          "name": "Ground",
+          "components": [
+            {
+              "type": "Transform",
+              "entityId": 1,
+              "position": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "type": "MeshRenderer",
+              "entityId": 1,
+              "meshType": "plane",
+              "color": "#2ecc71",
+              "size": [
+                20,
+                0.2,
+                20
+              ]
+            },
+            {
+              "type": "RigidBody",
+              "entityId": 1,
+              "bodyType": "static",
+              "colliderShape": "cuboid",
+              "colliderSize": [
+                10,
+                0.1,
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "sceneConfig": {
+        "groundSize": 30,
+        "skyColor": "#1a1a2e",
+        "ambientLight": "#404060",
+        "ambientIntensity": 0.5
+      }
+    }
+  ],
+  [
+    "05cb5550-e9d7-4ac0-b465-176ed0b76fe4",
+    {
+      "meta": {
+        "id": "05cb5550-e9d7-4ac0-b465-176ed0b76fe4",
+        "name": "API Test Game",
+        "description": "Created via curl",
+        "creatorId": "737da752-1013-4186-952f-6ee08f31e6c4",
+        "creatorName": "tester1",
+        "tags": [
+          "api-test"
+        ],
+        "thumbnail": "",
+        "playCount": 1,
+        "likeCount": 1,
+        "maxPlayers": 16,
+        "createdAt": "2026-05-20T12:59:05.856Z",
+        "updatedAt": "2026-05-20T12:59:05.856Z"
+      },
+      "luaScript": "print(\"hi\")",
+      "entities": [
+        {
+          "id": 1,
+          "name": "Ground",
+          "components": [
+            {
+              "type": "Transform",
+              "position": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "type": "MeshRenderer",
+              "meshType": "plane",
+              "color": "#2ecc71",
+              "size": [
+                30,
+                0.2,
+                30
+              ]
+            },
+            {
+              "type": "RigidBody",
+              "bodyType": "static",
+              "colliderShape": "cuboid",
+              "colliderSize": [
+                15,
+                0.1,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "sceneConfig": {
+        "groundSize": 30,
+        "skyColor": "#1a1a2e",
+        "ambientLight": "#404060",
+        "ambientIntensity": 0.5
+      }
+    }
+  ]
+]

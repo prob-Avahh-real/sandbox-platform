@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/engine" },
+    { "path": "packages/lua-runtime" },
+    { "path": "packages/server" },
+    { "path": "packages/client" },
+    { "path": "packages/studio" }
+  ]
+}

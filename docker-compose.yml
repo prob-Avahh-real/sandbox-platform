@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # Game server
+  server:
+    build:
+      context: .
+      dockerfile: packages/server/Dockerfile
+    ports:
+      - '3002:3002'
+    environment:
+      - PORT=3002
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  # Player client (served via nginx or static server)
+  client:
+    build:
+      context: .
+      dockerfile: packages/client/Dockerfile
+    ports:
+      - '3000:80'
+    depends_on:
+      - server
+    restart: unless-stopped
+
+  # Studio editor
+  studio:
+    build:
+      context: .
+      dockerfile: packages/studio/Dockerfile
+    ports:
+      - '3001:80'
+    restart: unless-stopped

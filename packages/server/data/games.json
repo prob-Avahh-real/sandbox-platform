@@ -1,0 +1,92 @@
+[
+  [
+    "78ce0ff3-e712-4605-b2e1-2d226d13c064",
+    {
+      "meta": {
+        "id": "78ce0ff3-e712-4605-b2e1-2d226d13c064",
+        "name": "EndToEndTest",
+        "description": "E2E verify",
+        "creatorId": "c1b67dad-3069-4875-96e3-1a02751f2a49",
+        "creatorName": "verify_user",
+        "tags": [
+          "verify"
+        ],
+        "thumbnail": "",
+        "playCount": 0,
+        "likeCount": 0,
+        "maxPlayers": 4,
+        "createdAt": "2026-05-21T10:15:45.304Z",
+        "updatedAt": "2026-05-21T10:15:45.304Z"
+      },
+      "luaScript": "print(\"loaded!\")",
+      "entities": [
+        {
+          "id": 1,
+          "name": "Ground",
+          "components": [
+            {
+              "type": "Transform",
+              "entityId": 1,
+              "position": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "type": "MeshRenderer",
+              "entityId": 1,
+              "meshType": "plane",
+              "color": "#2ecc71",
+              "size": [
+                20,
+                0.2,
+                20
+              ]
+            },
+            {
+              "type": "RigidBody",
+              "entityId": 1,
+              "bodyType": "static",
+              "mass": 0,
+              "colliderShape": "cuboid",
+              "colliderSize": [
+                10,
+                0.1,
+                10
+              ],
+              "linearVelocity": [
+                0,
+                0,
+                0
+              ],
+              "angularVelocity": [
+                0,
+                0,
+                0
+              ],
+              "linearDamping": 0,
+              "angularDamping": 0,
+              "useGravity": false,
+              "isTrigger": false,
+              "canSleep": true,
+              "lockRotation": [
+                true,
+                true,
+                true
+              ],
+              "friction": 0.6,
+              "restitution": 0.1
+            }
+          ]
+        }
+      ],
+      "sceneConfig": {
+        "groundSize": 30,
+        "skyColor": "#1a1a2e",
+        "ambientLight": "#404060",
+        "ambientIntensity": 0.5
+      }
+    }
+  ]
+]

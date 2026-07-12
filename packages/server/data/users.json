@@ -1,0 +1,18 @@
+[
+  [
+    "c1b67dad-3069-4875-96e3-1a02751f2a49",
+    {
+      "id": "c1b67dad-3069-4875-96e3-1a02751f2a49",
+      "username": "verify_user",
+      "email": "verify@test.com",
+      "passwordHash": "$2a$10$I2XInEvfU4/sz1zwOsE5yO4USwmLYoQZjn1GDqO9f./qV17Gra/C6",
+      "displayName": "verify_user",
+      "avatarUrl": "",
+      "bio": "",
+      "createdAt": "2026-05-21T10:15:21.944Z",
+      "lastLoginAt": "2026-05-21T10:15:21.944Z",
+      "gamesCreated": 1,
+      "totalPlayTime": 0
+    }
+  ]
+]

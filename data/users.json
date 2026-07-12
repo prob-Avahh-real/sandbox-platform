@@ -1,0 +1,34 @@
+[
+  [
+    "eb28719c-835c-40b9-8b0d-08c18b701d91",
+    {
+      "id": "eb28719c-835c-40b9-8b0d-08c18b701d91",
+      "username": "testbot",
+      "email": "test@test.com",
+      "passwordHash": "$2a$10$Ss7Jmx5p8ygf5C/Qq0M.Z.eqZpP6g6oM9o7/5t6MwZUzaI3H27Ckq",
+      "displayName": "testbot",
+      "avatarUrl": "",
+      "bio": "",
+      "createdAt": "2026-05-20T10:43:23.684Z",
+      "lastLoginAt": "2026-05-20T10:43:35.230Z",
+      "gamesCreated": 1,
+      "totalPlayTime": 0
+    }
+  ],
+  [
+    "737da752-1013-4186-952f-6ee08f31e6c4",
+    {
+      "id": "737da752-1013-4186-952f-6ee08f31e6c4",
+      "username": "tester1",
+      "email": "t1@test.com",
+      "passwordHash": "$2a$10$xTsebQmMMjVrm3/IxVQ9cuZGzWfGTv0qbYHAsFgijiea.2uKmEjmW",
+      "displayName": "tester1",
+      "avatarUrl": "",
+      "bio": "",
+      "createdAt": "2026-05-20T12:58:44.021Z",
+      "lastLoginAt": "2026-05-20T12:58:44.021Z",
+      "gamesCreated": 1,
+      "totalPlayTime": 0
+    }
+  ]
+]
